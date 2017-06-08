@@ -57,6 +57,6 @@ create_table_cmd = <<-STRING
 STRING
 
 
-# list.execute(create_table_cmd)
+db.execute(create_table_cmd)
 
 # list.execute("INSERT INTO shoppingList (item_name, item_qty, acquired) VALUES ('oranges', 12, false);")
